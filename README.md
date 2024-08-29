@@ -69,7 +69,7 @@ $ shrub_vol <- Vol(1, 2, 3)
 $shrub_mass <- est_shrub_mass(shrub_vol)
 
 
-## we can also muse pipe 
+## we can also use pipe 
 
 shrub_mass <- Vol(1,2,3) %>%
 est_shrub_mass()
